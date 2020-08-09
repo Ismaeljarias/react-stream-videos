@@ -6,3 +6,5 @@ A React app copying the basic functionality of [Twitch](https://www.twitch.tv/).
 Here I use React, Redux, React Redux and Redux Thunk and also it is integrate with a RTMP server for get the stream video functionality.
 
 If you want this project to work locally remember create a `.env` file with REACT_APP_OAUTH_CLIENT_ID, and add your google Oauth ID.
+
+Here I use `json-server` to manage the Rest part and also `Node Media Server` to manage the streaming part, you can check as well and see if you want to run the full process.
